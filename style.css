@@ -1,1 +1,45 @@
 
+@media only screen and (min-width:1px) {
+    body {
+        background-color: #e60000;
+    }
+    .medium{
+      display: none;
+    }
+    .large{
+      display: none;
+    }
+    .small{
+      display: flex;
+    }
+
+}
+@media only screen and (min-width: 300px){
+    body {
+        background-color: green;
+    }
+    .medium{
+      display: flex;
+    }
+    .large{
+      display: none;
+    }
+    .small{
+      display: none;
+    }
+}
+
+@media only screen and (min-width:768px) {
+    body {
+        background-color: blue;
+    }
+    .medium{
+      display: none;
+    }
+    .large{
+      display: flex;
+    }
+    .small{
+      display: none;
+    }
+}
