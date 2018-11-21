@@ -1,16 +1,27 @@
-
 @media only screen and (min-width:1px) {
     body {
         background-color: #e60000;
+
     }
-    .medium{
-      display: none;
-    }
-    .large{
-      display: none;
-    }
-    .small{
+    #medium{
+
       display: flex;
+      flex-direction: column;
+
+    }
+    #large{
+      display: flex;
+      flex-direction: column;
+    }
+    #small{
+      display: flex;
+      flex-direction: column;
+    }
+    h1{
+      font-size: 10px;
+    }
+    p{
+      font-size: 5px;
     }
 
 }
@@ -18,28 +29,51 @@
     body {
         background-color: green;
     }
-    .medium{
+    #medium{
       display: flex;
+      flex-direction: column;
+      width:33%;
     }
-    .large{
-      display: none;
+    #large{
+      display: flex;
+      flex-direction: column;
+      width:100%;
     }
-    .small{
-      display: none;
+    #small{
+      display: flex;
+      flex-direction: column;
+      width:67%;
     }
+    h1{
+      font-size: 25px;
+    }
+    p{
+      font-size: 15px;
+    }
+
 }
 
 @media only screen and (min-width:768px) {
     body {
         background-color: blue;
     }
-    .medium{
-      display: none;
+    #medium{
+display:inline-block;
+      width :25%;
     }
-    .large{
-      display: flex;
+    #large{
+display: inline-block;
+      width:25%;
     }
-    .small{
-      display: none;
+    #small{
+display: inline-block;
+      width:25%;
     }
+    h1{
+      font-size: 45px;
+    }
+    p{
+      font-size:25px;
+    }
+
 }
